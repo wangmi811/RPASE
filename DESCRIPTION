@@ -1,0 +1,20 @@
+Package: RPASE
+Type: Package
+Title: Read-backed Phasing-based ASE detection method
+Version: 0.1.0
+Author: Mi Wang & Douglas G. Scofield
+Maintainer: Mi Wang <mi.wang@ebc.uu.se>
+Description: The package implements the RPASE method for detecting genes with
+    allele specific expression. Using output from read-backed phasing, RPASE
+    produces test results for ASE on a per-individual and per-gene basis.  RPASE
+    allows for dependency of read counts and leverages information across SNPs to
+    detect ASE while controlling for overdispersion. An exact p-value is calculated
+    based on the null hypothesis that the gene does not show ASE.
+License: GPL-3
+Encoding: UTF-8
+LazyData: false
+Imports: 
+RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
